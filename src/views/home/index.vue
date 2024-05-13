@@ -4,7 +4,7 @@
             <img :src="userStore.avatar" alt="" class="avatar">
             <div class=" bottom">
                 <h3 class="title">{{ getTime() }}好呀{{ userStore.username }}</h3>
-                <p class="subtitle">智慧社区电商管理平台</p>
+                <p class="subtitle">智慧社区管理平台</p>
             </div>
         </div>
     </el-card>
