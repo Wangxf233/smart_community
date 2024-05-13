@@ -54,5 +54,9 @@ module.exports = {
         'vue/script-setup-uses-vars': 'error', // 防止<script setup>使用的变量<template>被标记为未使用
         'vue/no-mutating-props': 'off', // 不允许组件 prop的改变
         'vue/attribute-hyphenation': 'off', // 对模板中的自定义组件强制执行属性命名样式
+
+        'vue/no-unused-vars': ['error', {
+            'ignorePattern': '^index' // 忽略以 _ 开头的变量，或者你可以定义自己的模式  
+        }]
     },
 }
